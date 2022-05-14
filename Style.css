@@ -1,0 +1,53 @@
+{
+margin: 0;
+padding: 0; 
+
+}
+
+.slide{
+  width: 100vw;
+  height: 100vw;
+}
+
+.wrapper{
+display: flex;
+flex-direction: row;
+width: 400vw;
+transform: rotate(90deg)translateY(-100vh);
+transform-origin: top left;
+}
+.one{
+background: #5B99AA;
+}
+
+.dos{
+background: #1DA446;
+}
+.tres{
+background: #5B99AA;
+}
+.cuatro{
+background: #1DA446;
+}
+
+.outer-wrapper{
+width: 100vh;
+height: 100vw;
+transform: rotate(-90deg)translateX(-100vh);
+transform-origin: top left;
+overflow-y: scroll;
+overflow-x: hidden;
+position: absolute;
+}
+
+p.text{
+text-shadow: 3px 3px black;
+padding: 1px 400px;
+overflow: hidden;
+position: absolute;
+font-size: 100px;
+color: white;
+}
+	
+	
+	
